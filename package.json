@@ -21,6 +21,7 @@
     "axios": "^0.15.3"
   },
   "devDependencies": {
+    "coveralls": "^2.11.15",
     "tape": "^4.6.3"
   }
 }
