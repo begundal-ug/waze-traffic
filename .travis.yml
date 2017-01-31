@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '6'
+cache: yarn
+deploy:
+  provider: npm
+  email: achmad@mahardi.me
+  api_key:
+    secure: DI/hlZtjLT8AGkrwwmzqLjsDCOelISFE4CMR+ZckQB7AnFdSaT4EcRRKIimdrdwWn4lmzeYFu4pkfLRKg76VHI2da3WMouRqWA7isC29bzdSifhEgkvNEK2QpqWN1YPrwSLxVwSCdhs1as9uGbjn25J/9qdrhP+8cL/REuBSpmaakY7Yw5W6h2i+myqBZHxVCfcInQi4Hp3lkS2gaL1A+T28FdZF6DWzKU+qI5NNudRnSWk0N7a7EmRk89vYt8jyt/TnsY8hf3m/eD6sk+Aer7QLzP2E+CEC0bCD7f1ycQc4wa1bYHiwag1bmrP0Pg05PnNAIWqLW04+5ieBXEHhadIevLDzhQ/g5D4GtvbjycNvCQqV6xIvZiUmsVBPtxeud01TYjfsXU9zWesXq3D9nfzbUGuc7NrSIqpxM48EWp3qswwtXPRT0HFx9QzUwyMdWPbsGH7qXx2bGrvbaPx8f5akMGGIzkzZQ604HUNOGkfGgqoKzTwCod3p6+lTuCIuW0TO6PqfO0Rg8wa8xmA6djB0RUEadIG72N7maW6KYjXUlS4QqidLdhbGbmfku3IgIXDp/DYst3HUbfPIt0OGOz/Phl7IYk9sOzGwacWIZDmFVAErQdmFKH4N6gqyXWfsymrQL1soMsMjkY0oZIfwU+b04Om/jPUs5gGTJjF427k=
+  on:
+    tags: true
+    repo: begundal-ug/waze-traffic
