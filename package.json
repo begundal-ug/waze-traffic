@@ -1,0 +1,26 @@
+{
+  "name": "waze-traffic",
+  "version": "1.0.0",
+  "description": "Waze traffic lookup",
+  "main": "index.js",
+  "contributors": [
+    {
+      "name": "Achmad Mahardi",
+      "email": "achmad@mahardi.me"
+    },
+    {
+      "name": "Ahmad Anshorimuslim",
+      "email": "ans4175@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^0.15.3"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
