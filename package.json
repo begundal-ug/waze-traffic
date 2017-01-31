@@ -15,12 +15,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "test": "node test.js"
+    "test": "tape test.js | tap-spec"
   },
   "dependencies": {
     "axios": "^0.15.3"
   },
   "devDependencies": {
+    "coveralls": "^2.11.15",
+    "tap-spec": "2",
     "tape": "^4.6.3"
   }
 }
