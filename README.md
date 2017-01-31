@@ -1,5 +1,5 @@
 ## waze-traffic
-[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic)
+[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic)  
 [![NPM](https://nodei.co/npm/waze-traffic.png)](https://npmjs.org/package/waze-traffic)
 
 This module fetches traffic info, which includes traffic alerts and traffic jams around an area that you defined.
