@@ -34,8 +34,11 @@ function getTraffic(segment) {
                 return obj;
             })
             .reduce((prev, curr) => {
-                return Object.assign(prev, curr);
-            }), {});
+                let newObj = {};
+                newObj.alerts = prev.alerts.concat(curr.alerts);
+                newObj.jams = prev.jams.concat(curr.jams);
+                return newObj;
+            }), {alerts:[],jams:[]});
 }
 
 module.exports = {
