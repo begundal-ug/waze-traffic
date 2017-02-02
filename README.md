@@ -1,5 +1,6 @@
 ## waze-traffic
-[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic)
+
+[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic) [![Coverage Status](https://coveralls.io/repos/github/begundal-ug/waze-traffic/badge.svg?branch=master)](https://coveralls.io/github/begundal-ug/waze-traffic?branch=master) [![NPM](https://nodei.co/npm/waze-traffic.png)](https://npmjs.org/package/waze-traffic)
 
 This module fetches traffic info, which includes traffic alerts and traffic jams around an area that you defined.
 
@@ -44,3 +45,4 @@ traffic.getTraffic({
          */
     });
 ```
+[![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/certified-steve-bruhle.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/reading-6th-grade-level.svg)](http://forthebadge.com)
