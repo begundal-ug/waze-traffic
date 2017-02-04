@@ -1,6 +1,6 @@
 # <center>waze-traffic</center>
 
-<center>[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic)</center>
+<center>[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic) [![npm version](https://badge.fury.io/js/waze-traffic.svg)](https://npmjs.org/package/waze-traffic)</center>
 
 This is an unofficial module to fetch traffic info from [Waze](https://www.waze.com), which includes traffic alerts and jams that happens around an area that you defined.
 
@@ -68,3 +68,8 @@ The left latitude boundary of the area
 ### Release History
 
 see [CHANGELOG.md](CHANGELOG.md)
+
+### License
+
+Copyright (c) 2017 Achmad Mahardi, Ahmad Anshorimuslim
+Licensed under the MIT license.
