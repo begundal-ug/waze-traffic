@@ -6,3 +6,6 @@ First Release
 
 * bugfix - fix result reducer (#4)
 
+## v2.0.0
+
+BREAKING CHANGES - Output format has changed from v1.*
