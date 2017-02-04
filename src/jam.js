@@ -1,16 +1,16 @@
+const createPoint = require('./point');
+
 function createJam(jam) {
     return {
-        severity: jam.severity,
-        type: jam.type,
-        country: jam.country,
-        end: jam.end,
-        start: jam.start,
-        street: jam.street,
-        startLatitude: jam.startLatitude,
-        startLongitude: jam.startLongitude,
-        endLatitude: jam.endLatitude,
-        endLongitude: jam.endLongitude,
-        delayInSec: jam.delayInSec,
+        country: jam.country || '',
+        city: jam.city || '',
+        severity: jam.severity || '',
+        delay: jam.delay || 0,
+        speed: jam.speed || 0,
+        type: jam.type || '',
+        line: jam.line.length ? jam.line.map(coord => createPoint(coord)) : [],
+        street: jam.street || '',
+        roadType: jam.roadType || 0,
     }
 };
 

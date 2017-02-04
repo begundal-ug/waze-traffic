@@ -1,12 +1,13 @@
+const createPoint = require('./point');
+
 function createAlert(alert) {
     return {
-        country: alert.country,
-        numOfThumbsUp: alert.numOfThumbsUp,
-        type: alert.type,
-        subType: alert.subType,
-        placeNearby: alert.placeNearby,
-        latitude: alert.latitude,
-        longitude: alert.longitude,
+        country: alert.country || '',
+        city: alert.city || '',
+        street: alert.street || '',
+        location: Object.keys(alert.location).length ? createPoint(alert.location) : {},
+        type: alert.type || '',
+        subType: alert.subType || '',
     };
 }
 
