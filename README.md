@@ -73,3 +73,5 @@ see [CHANGELOG.md](CHANGELOG.md)
 
 Copyright (c) 2017 Achmad Mahardi, Ahmad Anshorimuslim
 Licensed under the MIT license.
+
+[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
