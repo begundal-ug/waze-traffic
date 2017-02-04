@@ -1,49 +1,70 @@
-## waze-traffic
+# <center>waze-traffic</center>
 
-[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic) [![Coverage Status](https://coveralls.io/repos/github/begundal-ug/waze-traffic/badge.svg?branch=master)](https://coveralls.io/github/begundal-ug/waze-traffic?branch=master)
-[![NPM](https://nodei.co/npm/waze-traffic.png)](https://npmjs.org/package/waze-traffic)
+<center>[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic)</center>
 
-This module fetches traffic info, which includes traffic alerts and traffic jams around an area that you defined.
+This is an unofficial module to fetch traffic info from [Waze](https://www.waze.com), which includes traffic alerts and jams that happens around an area that you defined.
 
-### How to use
+This was built with ES2015 in mind, so you need to use nodejs 6 minimum, or use babel with `babel-preset-es2015` preset.
+
+### First, a warning.
+
+This module doesn't affiliate with waze in any way, and you shouldn't treat this module as official way to interact with Waze's API.
+
+### Install
+
+```bash
+## Yarn
+$ yarn add waze-traffic
+
+## NPM
+$ npm install --save waze-traffic
+```
+
+### Usage
 
 ```js
-const traffic = require('waze-traffic');
+const waze = require('waze-traffic');
 
-traffic.getTraffic({
-        top: '-6.89206',
-        right: '107.64529',
-        bottom: '-6.89883',
-        left: '107.63186',
-    }).then(result => {
-        console.log(result)
-        /**
-         * should be like this:
-         * {
-         *     "alerts": [{
-         *         country: '...',
-         *         numOfThumbsUp: '...',
-         *         type: '...',
-         *         subType: '...',
-         *         placeNearby: '...',
-         *         latitude: '...',
-         *         longitude: '...',
-         *     }, ...],
-         *     "jams": [{
-         *         severity: '...',
-         *         type: '...',
-         *         country: '...',
-         *         end: '...',
-         *         start: '...',
-         *         street: '...',
-         *         startLatitude: '...',
-         *         startLongitude: '...',
-         *         endLatitude: '...',
-         *         endLongitude: '...',
-         *         delayInSec: '...',
-         *     }, ...],
-         * }
-         */
-    });
+waze.getTraffic({
+    top: '-6.89206',
+    right: '107.64529',
+    bottom: '-6.89883',
+    left: '107.63186',
+}).then(info => {
+    console.log(info);
+});
 ```
-[![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/certified-steve-bruhle.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/reading-6th-grade-level.svg)](http://forthebadge.com)
+
+### API
+
+####**getTraffic([boundary])**
+
+#####**boundary**
+
+**top** (required)
+
+Type: `string`
+
+The top longitude boundary of the area
+
+**right** (required)
+
+Type: `string`
+
+The right latitude boundary of the area
+
+**bottom** (required)
+
+Type: `string`
+
+The bottom longitude boundary of the area
+
+**left** (required)
+
+Type: `string`
+
+The left latitude boundary of the area
+
+### Release History
+
+see [CHANGELOG.md](CHANGELOG.md)
