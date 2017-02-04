@@ -1,6 +1,6 @@
 # <center>waze-traffic</center>
 
-<center>[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic) [![npm version](https://badge.fury.io/js/waze-traffic.svg)](https://npmjs.org/package/waze-traffic)</center>
+<center>[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic) [![Coverage Status](https://coveralls.io/repos/github/begundal-ug/waze-traffic/badge.svg?branch=master)](https://coveralls.io/github/begundal-ug/waze-traffic?branch=master) [![npm version](https://badge.fury.io/js/waze-traffic.svg)](https://npmjs.org/package/waze-traffic)</center>
 
 This is an unofficial module to fetch traffic info from [Waze](https://www.waze.com), which includes traffic alerts and jams that happens around an area that you defined.
 
