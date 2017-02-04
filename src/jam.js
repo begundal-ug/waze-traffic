@@ -1,3 +1,17 @@
+/**
+ * Jam
+ * 
+ * Jam is a representation of waze's traffic jam data,
+ * and it's self-documented.
+ * 
+ * The `line` part is an array of points, which marks the jammed route
+ * 
+ * UNDOCUMENTED:
+ * type
+ * roadType
+ */
+
+
 const createPoint = require('./point');
 
 function createJam(jam) {

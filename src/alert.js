@@ -1,3 +1,10 @@
+/**
+ * Alert
+ * 
+ * Alert is a representation of waze's alert data,
+ * and it's self-documented.
+ */
+
 const createPoint = require('./point');
 
 function createAlert(alert) {
