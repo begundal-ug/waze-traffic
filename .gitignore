@@ -113,5 +113,7 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+# VSCode
+.vscode
 
 # End of https://www.gitignore.io/api/osx,windows,linux,node
