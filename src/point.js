@@ -1,6 +1,6 @@
 /**
  * Point
- * 
+ *
  * Point is an object which defines a point in a map.
  * expressed in this format:
  * {
@@ -9,11 +9,11 @@
  * }
  */
 
-function createPoint(coord) {
-    return {
-        x: coord.x,
-        y: coord.y,
-    };
+function createPoint (coord) {
+  return {
+    x: coord.x,
+    y: coord.y
+  }
 }
 
-module.exports = createPoint;
+module.exports = createPoint
