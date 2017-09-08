@@ -17,12 +17,17 @@ function createJam (jam) {
   return {
     country: jam.country || '',
     city: jam.city || '',
-    severity: jam.severity || '',
+    severity: jam.severity || 0,
+    level: jam.level || 0,
     delay: jam.delay || 0,
     speed: jam.speed || 0,
     type: jam.type || '',
     line: jam.line.length ? jam.line.map(coord => createPoint(coord)) : [],
-    street: jam.street || '',
+    startPoint: jam.line.length ? createPoint(jam.line[0]) : null,
+    endPoint: jam.line.length ? createPoint(jam.line[jam.line.length - 1]) : null,
+    start_street: jam.street || '',
+    end_street: jam.endNode || '',
+    ts: jam.pubMillis || (new Date()).getTime(),
     roadType: jam.roadType || 0
   }
 };
