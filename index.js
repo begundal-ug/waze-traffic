@@ -3,7 +3,7 @@ const axios = require('axios')
 const createAlert = require('./src/alert')
 const createJam = require('./src/jam')
 
-const SERVER_LIST = ['rtserver', 'row-rtserver', 'il-rtserver']
+const SERVER_LIST = ['row-rtserver']
 
 function notificationUrl (server, left, right, top, bottom) {
   return axios.get(`https://www.waze.com/${server}/web/TGeoRSS`, {
@@ -11,7 +11,9 @@ function notificationUrl (server, left, right, top, bottom) {
       left,
       right,
       top,
-      bottom
+      bottom,
+      tk: 'community',
+      format: 'JSON'
     }
   })
 }
