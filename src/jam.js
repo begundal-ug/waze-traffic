@@ -21,6 +21,7 @@ function createJam (jam) {
     level: jam.level || 0,
     delay: jam.delay || 0,
     speed: jam.speed || 0,
+    speedKMH: jam.speedKMH || 0,
     type: jam.type || '',
     line: jam.line.length ? jam.line.map(coord => createPoint(coord)) : [],
     startPoint: jam.line.length ? createPoint(jam.line[0]) : null,
