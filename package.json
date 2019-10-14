@@ -25,7 +25,7 @@
   "devDependencies": {
     "coveralls": "^2.11.15",
     "eslint": "^3.15.0",
-    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard": "^7.1.0",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1",
     "nyc": "^10.1.2",
