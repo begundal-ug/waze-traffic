@@ -1,6 +1,6 @@
 {
   "name": "waze-traffic",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Waze traffic lookup",
   "main": "index.js",
   "contributors": [
