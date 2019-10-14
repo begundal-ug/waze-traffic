@@ -13,3 +13,8 @@ BREAKING CHANGES - Output format has changed from v1.*
 ## v2.0.1
 
 Release v2.* to npm (Sorry, didn't bump the version on v2.0.0) 😣
+
+## v2.2.0
+
+* Release v2.2.0 to npm
+* Add speedKMH output on jam datatype definition: #16
