@@ -1,6 +1,6 @@
-# <center>waze-traffic</center>
+# <p align="center">waze-traffic</p>
 
-<center>[![Build Status](https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master)](https://travis-ci.org/begundal-ug/waze-traffic) [![Coverage Status](https://coveralls.io/repos/github/begundal-ug/waze-traffic/badge.svg?branch=master)](https://coveralls.io/github/begundal-ug/waze-traffic?branch=master) [![npm version](https://badge.fury.io/js/waze-traffic.svg)](https://npmjs.org/package/waze-traffic)</center>
+[<img src="https://travis-ci.org/begundal-ug/waze-traffic.svg?branch=master" alt="Travis Build Status" align="center" />](https://travis-ci.org/begundal-ug/waze-traffic) [<img src="https://coveralls.io/repos/github/begundal-ug/waze-traffic/badge.svg?branch=master" alt="Coveralls code coverage status" align="center" />](https://coveralls.io/github/begundal-ug/waze-traffic?branch=master) [<img src="https://badge.fury.io/js/waze-traffic.svg" alt="NPM Version" align="center" />](https://npmjs.org/package/waze-traffic)
 
 This is an unofficial module to fetch traffic info from [Waze](https://www.waze.com), which includes traffic alerts and jams that happens around an area that you defined.
 
@@ -74,4 +74,6 @@ see [CHANGELOG.md](CHANGELOG.md)
 Copyright (c) 2017 Achmad Mahardi, Ahmad Anshorimuslim
 Licensed under the MIT license.
 
-[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
+
+[<img src="https://cdn.rawgit.com/feross/standard/master/badge.svg" alt="Standard - JavaScript Style Guide" align="center" />](https://github.com/feross/standard)
